@@ -1,0 +1,2 @@
+#aula CANVAS - O som ficou muito baixo aos 32.22, retornou aos 33.36
+#aula REPETIÇÃO - 02.39 - Erro, 20 < 10 - No vídeo é indicado que 20 é menor que 10 - Está errado.

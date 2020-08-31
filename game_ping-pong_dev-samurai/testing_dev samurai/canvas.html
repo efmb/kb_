@@ -1,0 +1,39 @@
+<html>
+  <body>
+    <canvas id="folha" width="600" height="500"></canvas>
+
+    <script>
+      var folhaDesenho = document.getElementById("folha");
+      var areaDesenho = folhaDesenho.getContext("2d");
+
+      var larguraCampo = 600;
+      var alturaCampo = 500;
+      var larguraLinha = 5;
+      var larguraBola = 5;
+      var alturaRaquete = 50;
+
+      // Cor verde sobre o fundo transparente
+      areaDesenho.fillStyle = '#286047';
+
+      // Largura e Altura do campo
+      areaDesenho.fillRect(0, 0, larguraCampo, alturaCampo); //areaDesenho.fillRect(0, 0, 600, 500);
+
+      // Cor Branca sobre o fundo verde
+      areaDesenho.fillStyle = '#ffffff'; //areaDesenho.fillStyle = '#ffffff';
+
+      // Linha
+      areaDesenho.fillRect(larguraCampo/2 - larguraLinha/2, 0, larguraLinha, alturaCampo); //areaDesenho.fillRect(297.5, 0, 5, 500);
+
+      // Raquete 1
+      areaDesenho.fillRect(0, 225, larguraLinha, alturaRaquete); //areaDesenho.fillRect(0, 225, 5, 50);
+
+      // Raquete 2
+      areaDesenho.fillRect(larguraCampo - larguraLinha, 225, larguraLinha, alturaRaquete); //areaDesenho.fillRect(595, 225, 5, 50);
+
+      // Bola
+      areaDesenho.fillRect(30, 30, larguraBola, larguraBola); //areaDesenho.fillRect(30, 30, 5, 5);
+
+    </script>
+
+  </body>
+</html>
