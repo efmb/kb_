@@ -21,7 +21,7 @@ const noteStudent01 = 9.8
 const noteStudent02 = 10
 const noteStudent03 = 2
 
-const average = 1 + 1
+const average = 10000000000000000000000000000000000000000000000000000000000000 + 100000000000000000000000000000000000000000000000000000000000
 
 //console.log(typeof noteStudent01)
 console.log(average)
