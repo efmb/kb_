@@ -14,10 +14,14 @@ const name3 = `Valeska e ${name}`// Template string (You can insert a variable b
 console.log(name3)
 */
 
-const student01 = "Mayk"
+const student01 = 'Mayk'
 const student02 = 'Diego'
+const student03 = 'Fulano'
 const noteStudent01 = 9.8
-const  noteStudent02 = 10
+const noteStudent02 = 10
+const noteStudent03 = 2
 
-console.log(typeof noteStudent01)
+const average = 1 + 1
 
+//console.log(typeof noteStudent01)
+console.log(average)
