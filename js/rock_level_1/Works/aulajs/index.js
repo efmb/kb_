@@ -24,6 +24,6 @@ const noteStudent03 = 2
 //const average = 10000000000000000000000000000000000000000000000000000000000000 + 100000000000000000000000000000000000000000000000000000000000
 //console.log(typeof noteStudent01)
 
-conste average = noteStudent01 + noteStudent02 + noteStudent03
+const average = (noteStudent01 + noteStudent02 + noteStudent03) / 3
 
 console.log(average)
