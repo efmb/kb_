@@ -17,6 +17,7 @@ console.log(name3)
 const student01 = "Mayk"
 const student02 = 'Diego'
 const noteStudent01 = 9.8
+const  noteStudent02 = 10
 
 console.log(typeof noteStudent01)
 
