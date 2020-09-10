@@ -32,7 +32,7 @@ console.log(4 !== "5") // true
 // Otherwise, block the entry.
 // If the person is 17 years old, tell him to come back when turns 18.
 
-const age = 18
+const age = 17.99
 if(age >= 18) {
     console.log("Deixar entrar")
 } else {
