@@ -11,3 +11,9 @@
     !===   Different, even of the same type.
 
 =============================================================================*/
+
+
+console.log(5 > 4)
+console.log(5 < 4)
+console.log(5 >= 4)
+console.log(4 <= 4)
