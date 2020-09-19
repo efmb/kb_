@@ -7,32 +7,33 @@
         setInterval(executar, 1000 / 30);
       }
 
+      var folhaDesenho = document.getElementById("folha");
+      var areaDesenho = folhaDesenho.getContext("2d");
+
+      var larguraCampo = 600;
+      var alturaCampo = 500;
+      var espessuraRede = 5;
+
+      var diametroBola = 10;
+
+      var espessuraRaquete = 11;
+      var alturaRaquete = 100;
+
+      var efeitoRaquete = 0.3;
+
       var posicaoJogador1 = posicaoJogador2 = 40;
       var posicaoBolaX = posicaoBolaY = 10;
       var velociadePosicaoBolaX = velocidadePosicaoBolaY = 5;
       var pontuacaoJogador1 = pontuacaoJogador2 = 0;
 
+      folhaDesenho.addEventListener("mousemove", function(e){
+        posicaoJogador1 = e.clienty - alturaRaquete / 2;
+      });
+
       function executar() {  // todo o código do jogo
-        var folhaDesenho = document.getElementById("folha");
-        var areaDesenho = folhaDesenho.getContext("2d");
-
-        var larguraCampo = 600;
-        var alturaCampo = 500;
-        var espessuraRede = 5;
-
-        var diametroBola = 10;
-
-        var espessuraRaquete = 11;
-        var alturaRaquete = 100;
-
-        var efeitoRaquete = 0.3;
-
         areaDesenho.fillStyle = "#286047"; // cor verde
-
         areaDesenho.fillRect(0, 0, larguraCampo, alturaCampo);
-
         areaDesenho.fillStyle = "#ffffff"; //cor branca
-
         areaDesenho.fillRect(larguraCampo / 2 - espessuraRede / 2, 0, espessuraRede, alturaCampo);
 
         // Desenha a bola
