@@ -20,6 +20,7 @@
       var alturaRaquete = 100;
 
       var efeitoRaquete = 0.3;
+      var velocidadeJogador2 = 5;
 
       var posicaoJogador1 = posicaoJogador2 = 40;
       var posicaoBolaX = posicaoBolaY = 10;
@@ -71,6 +72,7 @@
           } else {
             // Pontos do jogador 2
             pontuacaoJogador2 = pontuacaoJoogador2 + 1
+
             // colocar a bola no centro
           }
         }
@@ -89,6 +91,13 @@
 
             // colocar a bla no centro
           }
+        }
+
+        // Atualiza a posição do Joogador 2
+        if(posicaoJogador2 + alturaRaquete / 2 < posicaoBolaY){
+          posicaoJogador2 = posicaoJogador2 + velocidadeJoogador2;
+        } else {
+          posicaoJogador2 = posicaoJogador2 - velocidadeJoogador2;
         }
       }
     </script>
