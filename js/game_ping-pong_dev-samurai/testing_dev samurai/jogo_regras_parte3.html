@@ -42,6 +42,10 @@
         areaDesenho.fillRect(0, posicaoJogador1, espessuraRaquete, alturaRaquete);
         areaDesenho.fillRect(larguraCampo -espessuraRaquete, posicaoJogador2, espessuraRaquete, alturaRaquete);
 
+        // Escrever a pontuação dos jogadores
+        areaDesenho.fillRect("Humano - " + pontuaçãoJogador1 + " pontos", 100, 100);
+        areaDesenho.fillRect("Computador - " + pontuaçãoJogador2 + " pontos", larguraCampo-200, 100);
+
         posicaoBolaX = posicaoBolaX + velociadePosicaoBolaX;
         posicaoBolaY = posicaoBolaY + velocidadePosicaoBolaY;
 
