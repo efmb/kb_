@@ -20,7 +20,7 @@
       var alturaRaquete = 100;
 
       var efeitoRaquete = 0.3;
-      var velocidadeJogador2 = 5;
+      var velocidadeJogador2 = 10;
 
       var posicaoJogador1 = posicaoJogador2 = 40;
       var posicaoBolaX = posicaoBolaY = 10;
@@ -68,7 +68,7 @@
             velocidadeBolaPosicaoX = -velocidadeBolaPosicaoX;
 
             var diferencaY = posicaoBolaY - (posicaoJogador1 + alturaRaquete / 2);
-            velocidadeBolaPosicaoY = deferencaY * efeitoRaquete;
+            velocidadeBolaPosicaoY = diferencaY * efeitoRaquete;
           } else {
             // Pontos do jogador 2
             pontuacaoJogador2 = pontuacaoJogador2 + 1
@@ -88,7 +88,7 @@
             velocidadeBolaPosicaoX = -velocidadeBolaPosicaoX;
 
             var diferencaY = posicaoBolaY - (posicaoJogador2 + alturaRaquete / 2);
-            velocidadeBolaPosicaoY = deferencaY * efeitoRaquete;
+            velocidadeBolaPosicaoY = diferencaY * efeitoRaquete;
           } else {
             // Pontos do Jogador 1
             pontuacaoJogador1 = pontuacaoJogador1 + 1;
