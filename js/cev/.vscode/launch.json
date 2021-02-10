@@ -1,0 +1,15 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open ex004.html",
+            "file": "d:\\OneDrive\\knowledge\\dev\\kb_\\js\\cev\\class06\\ex004.html"
+        }
+    ]
+}
