@@ -20,12 +20,10 @@
     <h1>Hello, world!</h1>
     <p>I already got rid of the curse, in the name of Jesus amen!</p>
     <script>
-       var n1 = Number.parseFloat(window.prompt('Enter a number: '))
-       var n2 = Number.parseFloat(window.prompt('Enter another number: '))
+       var n1 = Number(window.prompt('Enter a number: '))
+       var n2 = Number(window.prompt('Enter another number: '))
        var s = n1 + n2
-       // This type of command returns a String, convert Number.parseInt(n) or Number.parseFloat(n) or simply Number(n)
-       // For number conversion to String, use String(n) or n.toString
-       window.alert('The sum of the values is: ' + s)
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
 
 
     </script>
