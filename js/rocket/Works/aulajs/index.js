@@ -32,5 +32,5 @@ if (average > 5) {
 } else {
     console.log('The average is <5')
 }
-
-console.log(average)_
+//test_push_ok
+console.log(average)
