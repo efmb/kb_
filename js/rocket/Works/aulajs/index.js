@@ -33,4 +33,4 @@ if (average > 5) {
     console.log('The average is <5')
 }
 
-console.log(average)
+console.log(average)_
